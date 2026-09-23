@@ -5,7 +5,7 @@
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://gitlab.com/Pythia8/releases/-/archive/pythia{{ file_version }}/releases-pythia{{ file_version }}.tar.gz
